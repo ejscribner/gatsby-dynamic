@@ -2,7 +2,7 @@
 // similar to create-react-app
 import React from "react"
 import { Router as MyRouter } from "@reach/router"
-import { RandomPerson } from "../modules/RandomPerson"
+import { RandomPerson } from "../../modules/RandomPerson"
 
 const Router = () => {
   return (

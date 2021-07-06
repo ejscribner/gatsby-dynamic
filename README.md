@@ -1,3 +1,10 @@
+## Testing Dynamic Pages
+- this app was bootstrapped by following [this tutorial](https://www.youtube.com/watch?v=RVNC61rkFxw)
+- and updated to use the new gatsby route api according to [this post](https://www.gatsbyjs.com/blog/fs-route-api/)
+
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
