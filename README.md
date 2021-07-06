@@ -5,7 +5,7 @@
 
 ### Basics
 - We can add `/app/` router that can route to dynamic React components:
-  #### **`/pages/app[...].js`**  
+  #### **`/src/pages/app[...].js`**  
   ```js
     const Router = () => {
       return (
