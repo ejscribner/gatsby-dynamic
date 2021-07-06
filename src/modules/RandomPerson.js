@@ -5,9 +5,8 @@ import React, { useEffect, useState } from "react"
 export const RandomPerson = ({results}) => {
   // dynamic applications fetch content from an API: https://randomuser.me/api
   const [person, setPerson] = useState();
-
   useEffect(() => {
-    fetch(`https://randomuser.me/api?results=${results = 1}`)
+    fetch(`https://randomuser.me/api?results=${results}`)
       .then(data => data.json())
       .then(data => setPerson(data))
   }, [results]);

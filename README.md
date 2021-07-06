@@ -5,7 +5,7 @@
 
 ### Basics
 - We can add `/app/` router that can route to dynamic React components:
-  #### **`/src/pages/app[...].js`**  
+  #### **`/src/pages/app/[...].js`**  
   ```js
     const Router = () => {
       return (
@@ -17,4 +17,5 @@
     }
   ```
 - This means we can combine a create-react-app style dynamic app with our Gatsby SSR content 
+
 
